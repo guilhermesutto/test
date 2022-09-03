@@ -1,0 +1,109 @@
+{
+	"index":
+	{
+		"scripts":
+		[
+			"/assets/scripts/modules/areas.js"
+		],
+
+		"styles":
+		[
+
+		],
+
+		"fields":
+		[
+
+		],
+
+		"modals":
+		[
+
+		],
+
+		"list_fields":
+		{
+			"id":"#",
+			"title":"Nome Copa",
+			"about":"Sobre"		
+		}
+	},
+
+	"form":
+	{
+		"scripts":
+		[
+			"/assets/scripts/modules/areas.js"
+		],
+
+		"styles":
+		[
+
+		],
+
+		"fields":
+		[
+			{
+				"label":true,
+				"name":"title",
+				"translate":"Titulo",
+				"type":"text",				
+				"id":"title",
+				"class":"",
+				"validate":""
+			},
+			{
+				"label":true,
+				"name":"about",
+				"translate":"Descricao",
+				"type":"text",
+				"id":"about",
+				"class":"",
+				"validate":""
+			},
+			{
+				"label":true,
+				"name":"slug",
+				"translate":"Slug",
+				"type":"text",				
+				"id":"slug",
+				"class":"",
+				"validate":""
+			},	
+			{
+				"label":true,
+				"name":"image",
+				"translate":"Imagem",
+				"type":"file",
+				"id":"image",
+				"class":"",
+				"validate":""
+			},	
+			{
+				"label":true,
+				"name":"image_skin_page",
+				"translate":"Imagem capa",
+				"type":"file",
+				"id":"image_skin_page",
+				"class":"",
+				"validate":""
+			},
+			{
+				"label":true,
+				"name":"edicoes",
+				"translate":"Edicoes",
+				"type":"template",
+				"template": "copas_edicoes",
+				"id":"edicoes",
+				"class":"",
+				"validate":""
+			}		
+
+		],
+
+		"modals":
+		[
+
+		]
+	}
+}
